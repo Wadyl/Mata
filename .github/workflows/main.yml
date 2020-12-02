@@ -4,7 +4,7 @@ jobs:
     steps:
       - run: echo Hello World
       - uses: actions/checkout@v2
-      - run: g++ -o main main.c
+      - run: g++ -o main losoweliczby.cpp
       - run: ./main
     runs-on: ${{matrix.platform}}
     strategy:
