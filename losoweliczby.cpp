@@ -10,7 +10,7 @@ int main(){
     liczba = przedzial(gen);
 
     cout << liczba << endl;
-    return  liczba;
+    return  0;
     
 }
 
